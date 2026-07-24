@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Maniarasan-zuper/basalt/main/docs/basalt-icon.png" alt="Basalt" width="96" height="96">
+  <img src="https://raw.githubusercontent.com/basalt-db/basalt/main/docs/basalt-icon.png" alt="Basalt" width="96" height="96">
 </p>
 
 # basalt-client — Python client for Basalt
 
 A dependency-free (standard-library-only) Python client for
-[Basalt](https://github.com/Maniarasan-zuper/basalt). It talks to a running
+[Basalt](https://github.com/basalt-db/basalt). It talks to a running
 `basalt` server over its HTTP/JSON API and exposes a **DB-API 2.0-style**
 interface plus a convenience `query()` that returns dicts.
 
@@ -62,11 +62,11 @@ df = pd.DataFrame(con.query("SELECT * FROM users"))
 
 - `commit()` is a no-op and `rollback()` raises — Basalt has **no transactions
   yet** (single-writer, group-commit durability). See the
-  [roadmap](https://github.com/Maniarasan-zuper/basalt/blob/main/ROADMAP.md).
+  [roadmap](https://github.com/basalt-db/basalt/blob/main/ROADMAP.md).
 - Errors from the engine raise `basalt.DatabaseError`; connection problems raise
   `basalt.OperationalError` (both subclass `basalt.Error`).
 - A full **SQLAlchemy dialect** is a roadmap item and depends on the engine
   gaining transactions + the PostgreSQL wire protocol; this client is the
   building block for it.
 
-MIT. Part of the [Basalt](https://github.com/Maniarasan-zuper/basalt) project.
+MIT. Part of the [Basalt](https://github.com/basalt-db/basalt) project.

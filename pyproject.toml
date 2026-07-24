@@ -19,9 +19,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Maniarasan-zuper/basalt/tree/main/clients/python"
-Repository = "https://github.com/Maniarasan-zuper/basalt"
-Issues = "https://github.com/Maniarasan-zuper/basalt/issues"
+Homepage = "https://github.com/basalt-db/basalt/tree/main/clients/python"
+Repository = "https://github.com/basalt-db/basalt"
+Issues = "https://github.com/basalt-db/basalt/issues"
 
 [tool.setuptools]
 packages = ["basalt"]
