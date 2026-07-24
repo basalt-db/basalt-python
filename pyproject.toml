@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basalt-client"
+version = "0.1.0"
+description = "Official Python client for Basalt — a from-scratch HTAP database engine (DB-API 2.0 style, dependency-free)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["database", "sql", "htap", "olap", "oltp", "columnar", "dbapi", "basalt"]
+authors = [{ name = "Basalt contributors" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Database",
+  "Topic :: Database :: Front-Ends",
+]
+
+[project.urls]
+Homepage = "https://github.com/Maniarasan-zuper/hybriddb/tree/main/clients/python"
+Repository = "https://github.com/Maniarasan-zuper/hybriddb"
+Issues = "https://github.com/Maniarasan-zuper/hybriddb/issues"
+
+[tool.setuptools]
+packages = ["basalt"]
