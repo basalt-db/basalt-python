@@ -19,9 +19,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Maniarasan-zuper/hybriddb/tree/main/clients/python"
-Repository = "https://github.com/Maniarasan-zuper/hybriddb"
-Issues = "https://github.com/Maniarasan-zuper/hybriddb/issues"
+Homepage = "https://github.com/Maniarasan-zuper/basalt/tree/main/clients/python"
+Repository = "https://github.com/Maniarasan-zuper/basalt"
+Issues = "https://github.com/Maniarasan-zuper/basalt/issues"
 
 [tool.setuptools]
 packages = ["basalt"]
