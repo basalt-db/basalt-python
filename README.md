@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Maniarasan-zuper/basalt/main/docs/basalt-icon.png" alt="Basalt" width="96" height="96">
+</p>
+
 # basalt-client — Python client for Basalt
 
 A dependency-free (standard-library-only) Python client for
